@@ -452,7 +452,7 @@ ini_set('display_errors', 1);
                                                                                 echo "</div>";
                                                                                 echo "<div class='icon-action'>";
                                                                                 echo "<div class='tooltip'>Criar Ficha</div>";
-                                                                                echo '<a href="criarFicha.php?id=' . $row["id"] . '"><i class="fas fa-calendar-check"></i></a>';
+                                                                                echo '<a href="criarFicha.php?cpf=' . urlencode($row["cpf"]) . '"><i class="fas fa-calendar-check"></i></a>';
                                                                                 echo "</div>";
                                                                                 echo "<div class='icon-action'>";
                                                                                 echo "<div class='tooltip'>Contrato</div>";

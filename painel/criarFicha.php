@@ -1,5 +1,4 @@
 <?php
-
 include "conexao.php";
 
 // ID da associação
@@ -16,7 +15,6 @@ $associacao = $stmt->fetch(PDO::FETCH_ASSOC);
 
 // Verifica se o campo 'logo_image' está definido e não é vazio
 $logoImage = isset($associacao['logo_image']) ? $associacao['logo_image'] : "";
-
 
 session_start(); // Inicia a sessão
 
@@ -43,21 +41,21 @@ verificarAcesso();
 
 include "conexao.php";
 
-// Obtenha o ID do aluno (exemplo: passado via GET)
-$id_aluno = isset($_GET['id']) ? intval($_GET['id']) : 0;
+// Obtenha o CPF do aluno passado via GET
+$cpf_aluno = isset($_GET['cpf']) ? $_GET['cpf'] : '';
 
 // Inicializar variável de categoria
 $categoria = '';
 
 try {
     // Preparar a consulta para obter informações do aluno e seus serviços
-    $query = "SELECT a.nome, a.rg, a.cpf, a.ladv, a.vencimento_processo, sa.servico, sa.categoria
+    $query = "SELECT a.id, a.nome, a.rg, a.cpf, a.ladv, a.vencimento_processo, sa.servico, sa.categoria
               FROM alunos a
               LEFT JOIN servicos_aluno sa ON a.id = sa.id
-              WHERE a.id = :id_aluno";
+              WHERE a.cpf = :cpf_aluno";
 
     $stmt = $conn->prepare($query);
-    $stmt->bindParam(':id_aluno', $id_aluno, PDO::PARAM_INT);
+    $stmt->bindParam(':cpf_aluno', $cpf_aluno, PDO::PARAM_STR);
     $stmt->execute();
     $aluno = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -65,6 +63,9 @@ try {
     if (!$aluno) {
         die('Aluno não encontrado.');
     }
+
+    // Obter o ID do aluno para uso posterior
+    $id_aluno = $aluno['id'];
 
     // Formatar as datas no formato ISO para exibição ou manipulação
     $aluno['vencimento_processo'] = date('Y-m-d', strtotime($aluno['vencimento_processo']));
@@ -95,7 +96,6 @@ try {
 } catch (PDOException $e) {
     die("Erro no banco de dados: " . $e->getMessage());
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -143,7 +143,7 @@ try {
                                 <i class="fas fa-calendar-alt"></i> Ver ficha
                             </a>
                             &nbsp;&nbsp;
-                            <a href="criarFicha.php?id=<?php echo $id_aluno; ?>" class="btn btn-white btn-sm active">
+                            <a href="criarFicha.php?cpf=<?php echo $cpf_aluno; ?>" class="btn btn-white btn-sm active">
                                 <i class="fas fa-plus"></i> Cadastrar Ficha
                             </a>
 
