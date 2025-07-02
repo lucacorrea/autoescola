@@ -92,6 +92,23 @@ try {
 
     // Verificar se o aluno atual é o mesmo que o armazenado
     $isSameAluno = $current_id_aluno == $stored_id_aluno;
+    
+    // CONSULTA PARA OBTER O TOTAL DE HORAS POR CATEGORIA
+    // Arredonda cada aula para cima para a próxima hora cheia (regra DETRAN)
+    $query_horas = "
+        SELECT 
+            categoria,
+            SEC_TO_TIME(SUM(CEIL(TIME_TO_SEC(TIMEDIFF(horario_fim, horario_inicio)) / 3600) * 3600)) AS total_horas,
+            COUNT(*) AS total_aulas
+        FROM fichas 
+        WHERE cpf = :cpf_aluno
+        GROUP BY categoria
+    ";
+    
+    $stmt_horas = $conn->prepare($query_horas);
+    $stmt_horas->bindParam(':cpf_aluno', $cpf_aluno, PDO::PARAM_STR);
+    $stmt_horas->execute();
+    $horas_por_categoria = $stmt_horas->fetchAll(PDO::FETCH_ASSOC);
 
 } catch (PDOException $e) {
     die("Erro no banco de dados: " . $e->getMessage());
@@ -110,6 +127,24 @@ try {
     <link rel="stylesheet" href="../css/animate.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="./css/painel.css" />
+    <style>
+        .resumo-horas {
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .resumo-horas h4 {
+            color: #343a40;
+            margin-bottom: 15px;
+        }
+        .table-horas {
+            width: 100%;
+            margin-bottom: 0;
+        }
+        .table-horas th {
+            background-color: #e9ecef;
+        }
+    </style>
 </head>
 <body>
 <section class="bg-menu">
@@ -148,7 +183,55 @@ try {
                             </a>
 
                             </div>    
-                            <div class="col-12 mt-5 tab-item" id="categoria">
+                            
+                            <!-- Seção de resumo de horas por categoria -->
+                            <div class="col-12 mt-3 resumo-horas">
+                                <h4><i class="fas fa-chart-bar"></i> Resumo de Horas por Categoria</h4>
+                                <?php if (!empty($horas_por_categoria)): ?>
+                                    <table class="table table-horas table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Categoria</th>
+                                                <th>Total de Aulas</th>
+                                                <th>Total de Horas</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php foreach ($horas_por_categoria as $categoria): ?>
+                                                <?php
+                                                    // Converte o total_horas (HH:MM:SS) para minutos totais
+                                                    $horas = 0;
+                                                    $minutos = 0;
+                                                    if (!empty($categoria['total_horas'])) {
+                                                        list($h, $m, $s) = explode(':', $categoria['total_horas']);
+                                                        $horas = (int)$h;
+                                                        $minutos = (int)$m;
+                                                        $segundos = (int)$s;
+                                                    }
+                                                    // Soma tudo em minutos
+                                                    $total_minutos = ($horas * 60) + $minutos + ($segundos > 0 ? 1 : 0);
+                                                    // Arredonda para cima para a próxima hora cheia se houver minutos
+                                                    $total_horas_detran = ceil($total_minutos / 60);
+                                                ?>
+                                                <tr>
+                                                    <td><?= htmlspecialchars($categoria['categoria']) ?></td>
+                                                    <td><?= htmlspecialchars($categoria['total_aulas']) ?></td>
+                                                    <td>
+                                                        <?= $total_horas_detran ?>h
+                                                        <?php if ($horas > 0 || $minutos > 0): ?>
+                                                            <small></small>
+                                                        <?php endif; ?>
+                                                    </td>
+                                                </tr>
+                                            <?php endforeach; ?>
+                                        </tbody>
+                                    </table>
+                                <?php else: ?>
+                                    <p>Nenhuma aula registrada ainda para este aluno.</p>
+                                <?php endif; ?>
+                            </div>
+                            
+                            <div class="col-12 mt-3 tab-item" id="categoria">
                                 <div class="col-12" id="categorias" style="zoom: 93%;">
                                     <form action="processarFichaAluno.php" method="POST" style="zoom: 93%;">
                                     <input type="hidden" name="id_aluno" value="<?= $id_aluno ?>" />
