@@ -139,7 +139,7 @@ try {
                     <div class="container">
                         <div class="row">
                             <div class="col-12 mt-0 cadastro">
-                            <a href="ficha.php?id=<?php echo $id_aluno; ?>" class="btn btn-white btn-sm">
+                            <a href="ficha.php?cpf=<?php echo $cpf_aluno; ?>" class="btn btn-white btn-sm">
                                 <i class="fas fa-calendar-alt"></i> Ver ficha
                             </a>
                             &nbsp;&nbsp;
