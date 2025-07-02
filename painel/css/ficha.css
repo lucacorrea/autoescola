@@ -1,0 +1,46 @@
+.signature-line {
+    border-top: 1px solid #000;
+    margin-top: 15px;
+    padding-top: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.endereco, .cnpj{
+    font-size: 16px !important;
+}
+
+.ficha{
+    line-height: 0.3;
+    text-align: left;
+    border: 1.5px solid #000 !important;
+    font-size: 14px;
+}
+
+.border{
+    border: 1.5px solid #000 !important;
+}
+
+p .dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-dados{
+    border: 1.5px dashed #000 !important;
+}
+
+.card-dados-aluno{
+    margin-top: -33px;
+}
+
+.dados-empresa span{
+    font-size: 13px;
+}
+
+select{
+    padding: 5px !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+}

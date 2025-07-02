@@ -1,0 +1,91 @@
+html, body{
+    background: #fff !important;
+}
+
+.container {
+    max-width: 75%;
+}
+
+.recibo-header {
+    margin-bottom: 10px;
+}
+
+.recibo-header img {
+    max-width: 110px;
+    margin-left: 90px;
+}
+
+.recibo-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.separate {
+    border-bottom: 2px solid #000;
+    width: 30%;
+    margin: 0 auto;
+}
+.recibo-info {
+    text-align: center;
+}
+
+.recibo-info small {
+    display: block;
+}
+
+.recibo-title {
+    font-weight: bold;
+}
+
+.recibo-card {
+    border: 2px dashed #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recibo-footer {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.recibo-footer hr {
+    border: 1px solid #000;
+    margin: 0;
+    width: 95%;
+}
+
+.recibo-footer .signature-space {
+    position: absolute;
+    left: 49%;
+    top: -12px;
+    color: #fff !important;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+p, h2 {
+    text-transform: uppercase; /* Transforma o texto em caixa alta */
+}
+
+@page {
+    size: A4; /* Mantém o tamanho padrão A4 */
+
+}
+
+@media print {
+    .container {
+        max-width: 100%;
+        zoom: 78%;
+    }
+    .recibo-footer .signature-space{
+        color: #fff !important;
+    }
+    .separate {
+        border-bottom: 2px solid #000;
+        width: 40%;
+        margin: 0 auto;
+    }
+}

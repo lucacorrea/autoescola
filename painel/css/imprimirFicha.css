@@ -1,0 +1,110 @@
+
+@media print {
+    @page {
+        size: A4; /* Mantém o tamanho padrão A4 */
+        padding: 10mm;
+    }
+
+    .page-break {
+        page-break-before: always;
+    }
+
+    .container{
+        margin-left: 31%;
+        zoom: 50% !important;
+    }
+
+    .col-md-12 {
+        width: 120%; /* Ajusta a largura da coluna para usar 100% da largura disponível */
+        box-sizing: border-box; /* Inclui padding e border na largura total */
+    }
+
+    .col-md-6 {
+        width: 46%; /* Ajusta a largura da coluna para usar 100% da largura disponível */
+        
+    }
+
+    .col-md-4 {
+        width: 33.3%; /* Ajusta a largura da coluna para usar 100% da largura disponível */
+       
+    }
+
+    .horario-ficha{
+        margin-left: -162%;
+    }
+
+    .ficha-card{
+        
+        width: 32.7%;
+    }
+
+    .rg{
+        width: 113.5%;
+    }
+
+    .card-dados {
+        width: 227%; /* Garante que os cards ocupem toda a largura disponível */
+        box-sizing: border-box; /* Inclui padding e border na largura total */
+        position: relative;
+
+    }
+}
+
+.signature-line {
+    border-top: 1px solid #000;
+    margin-top: 15px;
+    padding-top: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.endereco, .cnpj {
+    font-size: 30px !important;
+}
+
+.ficha {
+    line-height: 0.4;
+    text-align: left;
+    border: 1.5px solid #000 !important;
+    font-size: 28.5px;
+}
+
+.border {
+    border: 1.5px solid #000 !important;
+}
+
+.card-title{
+    font-size: 29px !important;
+}
+
+.card-agendamento {
+    margin: 0 auto;
+}
+
+p .dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-dados .card-text{
+    font-size: 27px !important;
+}
+
+.card-dados {
+    border: 1px dashed #000 !important;
+    margin-left: -0px;
+    font-size: 27px;
+}
+
+.card-dados-aluno {
+    margin-top: -33px;
+}
+
+.dados-empresa p {
+    font-size: 30px !important;
+}
+
+span{
+    font-size: 30px !important;
+}

@@ -1,0 +1,32 @@
+.card-preview {
+    border: 1px solid #22874c;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 65px;
+}
+.card-preview img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.card-address{
+    cursor: default !important;
+}
+
+.form-control{
+    margin-left: -30px;
+    border-radius: 10px;
+    border: 1px solid #000 !important; 
+    width: 109% !important;
+}
+
+.card-title{
+    background: var(--color-background); 
+    box-shadow: none !important; 
+    border: 1px solid var(--color-backgorund) !important; 
+}
+input{
+    cursor: pointer !important;
+}

@@ -1,0 +1,505 @@
+[12-Dec-2024 10:45:11 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/painel/redefinirSenhaNova.php on line 59
+[12-Dec-2024 10:55:28 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/painel/redefinirSenhaNova.php on line 59
+[12-Dec-2024 10:59:59 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/painel/redefinirSenhaNova.php on line 50
+[13-Dec-2024 12:02:37 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:150
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(150): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 150
+[13-Dec-2024 12:02:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:150
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(150): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 150
+[13-Dec-2024 12:02:39 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:150
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(150): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 150
+[13-Dec-2024 12:03:17 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:150
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(150): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 150
+[13-Dec-2024 12:04:02 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:150
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(150): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 150
+[13-Dec-2024 12:06:10 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:153
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(153): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 153
+[13-Dec-2024 12:06:11 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:153
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(153): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 153
+[13-Dec-2024 12:06:11 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:153
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(153): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 153
+[13-Dec-2024 12:06:21 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:153
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(153): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 153
+[13-Dec-2024 12:22:14 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:149
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(149): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 149
+[16-Dec-2024 15:28:07 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/painel/redefinirSenhaNova.php on line 50
+[16-Dec-2024 15:29:02 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:149
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(149): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 149
+[16-Dec-2024 15:29:12 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:149
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(149): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 149
+[16-Dec-2024 15:29:23 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:149
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(149): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 149
+[16-Dec-2024 15:30:49 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'cfcaut82_autoescola.servicos_aluno.categoria' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home3/cfcaut82/public_html/painel/alunos.php:153
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunos.php(153): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunos.php on line 153
+[20-Dec-2024 09:57:33 America/Fortaleza] PHP Warning:  Undefined variable $logoImage in /home3/cfcaut82/public_html/painel/listarcategorias.php on line 61
+[20-Dec-2024 09:57:33 America/Fortaleza] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home3/cfcaut82/public_html/painel/listarcategorias.php on line 61
+[20-Dec-2024 09:57:34 America/Fortaleza] PHP Warning:  Undefined variable $logoImage in /home3/cfcaut82/public_html/painel/listarcategorias.php on line 61
+[20-Dec-2024 09:57:34 America/Fortaleza] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home3/cfcaut82/public_html/painel/listarcategorias.php on line 61
+[20-Dec-2024 10:48:42 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[23-Dec-2024 11:00:53 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 192
+[23-Dec-2024 11:00:53 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 225
+[23-Dec-2024 11:00:56 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 192
+[23-Dec-2024 11:00:56 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 225
+[23-Dec-2024 11:02:12 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:02:12 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:02:16 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:02:16 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:03:51 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:03:51 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:03:52 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:03:52 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:03:53 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:03:53 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:04:28 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:04:28 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:04:30 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:04:30 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:04:30 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 197
+[23-Dec-2024 11:04:30 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 230
+[23-Dec-2024 11:09:55 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 202
+[23-Dec-2024 11:09:55 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 235
+[23-Dec-2024 11:09:57 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 202
+[23-Dec-2024 11:09:57 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 235
+[23-Dec-2024 11:10:00 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 202
+[23-Dec-2024 11:10:00 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 235
+[23-Dec-2024 11:10:00 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 202
+[23-Dec-2024 11:10:00 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 235
+[23-Dec-2024 11:10:56 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 202
+[23-Dec-2024 11:10:56 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 235
+[23-Dec-2024 11:11:43 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 202
+[23-Dec-2024 11:11:43 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 235
+[23-Dec-2024 11:13:42 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 200
+[23-Dec-2024 11:13:42 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 233
+[23-Dec-2024 11:15:46 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 187
+[23-Dec-2024 11:15:46 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 220
+[23-Dec-2024 11:17:19 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[23-Dec-2024 11:17:19 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[23-Dec-2024 11:17:21 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[23-Dec-2024 11:17:21 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[23-Dec-2024 11:17:21 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[23-Dec-2024 11:17:21 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[23-Dec-2024 11:17:23 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[23-Dec-2024 11:17:23 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[23-Dec-2024 11:17:25 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[23-Dec-2024 11:17:25 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[03-Jan-2025 10:26:54 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[03-Jan-2025 10:26:54 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[03-Jan-2025 10:30:15 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[06-Jan-2025 19:42:12 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[06-Jan-2025 19:42:12 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[13-Jan-2025 16:05:13 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[13-Jan-2025 16:05:32 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[13-Jan-2025 16:05:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[15-Jan-2025 16:52:03 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[15-Jan-2025 16:52:03 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[17-Jan-2025 10:13:51 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 10:16:43 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 10:17:33 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 10:46:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 11:02:54 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 11:03:56 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 11:04:23 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1,100.00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 11:05:08 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 11:05:26 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '430,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 11:07:06 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[17-Jan-2025 11:07:06 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[17-Jan-2025 15:05:52 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[17-Jan-2025 15:05:52 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[17-Jan-2025 15:20:49 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 15:24:47 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'preco' cannot be null in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[17-Jan-2025 15:26:04 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valor_entrada' cannot be null in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[17-Jan-2025 15:26:27 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:76
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 76
+[17-Jan-2025 15:27:19 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valor_entrada' cannot be null in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:82
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(82): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 82
+[17-Jan-2025 15:28:47 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'preco' cannot be null in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:97
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(97): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 97
+[17-Jan-2025 15:30:10 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'LUCAS DE SOUZA CORREA-PRIMEIRA HABILITAÇÃO ' for key 'servicos_aluno.nome_aluno' in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:82
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(82): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 82
+[17-Jan-2025 15:37:01 America/Fortaleza] PHP Warning:  Undefined variable $id_aluno in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 98
+[17-Jan-2025 15:39:43 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 30 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 160
+[17-Jan-2025 15:40:23 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[17-Jan-2025 15:40:23 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 217
+[17-Jan-2025 15:42:05 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[17-Jan-2025 15:42:07 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[17-Jan-2025 15:43:03 America/Fortaleza] PHP Warning:  Undefined variable $dia in /home3/cfcaut82/public_html/painel/recibo.php on line 184
+[20-Jan-2025 12:12:13 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[20-Jan-2025 12:15:02 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[20-Jan-2025 12:27:01 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[27-Jan-2025 10:49:36 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[27-Jan-2025 12:27:10 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1.100,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[30-Jan-2025 11:45:16 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '1290,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:137
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(137): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 137
+[31-Jan-2025 16:56:42 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '430,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[13-Feb-2025 16:01:27 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:01:27 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:03:00 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:03:00 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:03:02 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:03:02 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:03:02 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:03:02 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:03:06 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:03:06 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:04:52 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:04:52 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:07:03 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:07:03 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:07:11 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:07:11 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:07:13 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:07:13 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[13-Feb-2025 16:07:15 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/cfcaut82/public_html/painel/home.php on line 3
+[13-Feb-2025 16:07:15 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/painel/home.php:1) in /home3/cfcaut82/public_html/painel/home.php on line 19
+[20-Feb-2025 16:24:01 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:24:17 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:24:53 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%MARIA%' OR a.cpf LIKE '%MARIA%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:08 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:08 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:12 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:12 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:16 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:16 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:26 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:33:27 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%NEUZIVANE%' OR a.cpf LIKE '%NEUZIVANE%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:34:56 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%maria%' OR a.cpf LIKE '%maria%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:34:56 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%MARIA RAIMUNDA%' OR a.cpf LIKE '%MARIA RAIMUNDA%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:34:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%MARIA RAIMUNDA%' OR a.cpf LIKE '%MARIA RAIMUNDA%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:34:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%MARIA RAIMUNDA%' OR a.cpf LIKE '%MARIA RAIMUNDA%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:34:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%MARIA RAIMUNDA%' OR a.cpf LIKE '%MARIA RAIMUNDA%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:34:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%MARIA RAIMUNDA%' OR a.cpf LIKE '%MARIA RAIMUNDA%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:34:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%MARIA RAIMUNDA%' OR a.cpf LIKE '%MARIA RAIMUNDA%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:36:31 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%maria%' OR a.cpf LIKE '%maria%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 16:37:17 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (a.nome LIKE '%maria%' OR a.cpf LIKE '%maria%')' at line 8 in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php:189
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php(189): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/inserirAlunosAdicionais.php on line 189
+[20-Feb-2025 20:31:01 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 236
+[20-Feb-2025 20:31:34 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 236
+[20-Feb-2025 20:34:07 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 231
+[20-Feb-2025 20:35:14 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 228
+[20-Feb-2025 20:47:07 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 238
+[20-Feb-2025 20:47:47 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 243
+[20-Feb-2025 20:48:04 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 243
+[20-Feb-2025 20:48:19 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 244
+[20-Feb-2025 20:49:23 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 244
+[20-Feb-2025 21:33:18 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 228
+[20-Feb-2025 23:33:28 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home3/cfcaut82/public_html/painel/alunosTurma.php:122
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunosTurma.php(122): mysqli_query(Object(PDO), 'SELECT COUNT(*)...')
+#1 /home3/cfcaut82/public_html/painel/alunosTurma.php(137): isFeriado(Object(DateTime), Object(PDO))
+#2 /home3/cfcaut82/public_html/painel/alunosTurma.php(152): isDiaUtil(Object(DateTime), Object(PDO))
+#3 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 122
+[20-Feb-2025 23:37:53 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home3/cfcaut82/public_html/painel/alunosTurma.php:122
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunosTurma.php(122): mysqli_query(Object(PDO), 'SELECT COUNT(*)...')
+#1 /home3/cfcaut82/public_html/painel/alunosTurma.php(137): isFeriado(Object(DateTime), Object(PDO))
+#2 /home3/cfcaut82/public_html/painel/alunosTurma.php(152): isDiaUtil(Object(DateTime), Object(PDO))
+#3 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 122
+[20-Feb-2025 23:37:53 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home3/cfcaut82/public_html/painel/alunosTurma.php:122
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunosTurma.php(122): mysqli_query(Object(PDO), 'SELECT COUNT(*)...')
+#1 /home3/cfcaut82/public_html/painel/alunosTurma.php(137): isFeriado(Object(DateTime), Object(PDO))
+#2 /home3/cfcaut82/public_html/painel/alunosTurma.php(152): isDiaUtil(Object(DateTime), Object(PDO))
+#3 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 122
+[20-Feb-2025 23:56:19 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 153 in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 279
+[21-Feb-2025 01:33:04 America/Fortaleza] PHP Parse error:  syntax error, unexpected token "<" in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 256
+[21-Feb-2025 01:33:05 America/Fortaleza] PHP Parse error:  syntax error, unexpected token "<" in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 256
+[21-Feb-2025 01:35:09 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 268
+[21-Feb-2025 01:36:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function isFeriado() in /home3/cfcaut82/public_html/painel/alunosTurma.php:153
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunosTurma.php(181): isDiaUtil(Object(DateTime), Array)
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 153
+[21-Feb-2025 01:38:30 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 264
+[21-Feb-2025 01:38:49 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 263
+[21-Feb-2025 01:39:52 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 263
+[21-Feb-2025 01:49:22 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 277
+[21-Feb-2025 01:50:29 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 268
+[21-Feb-2025 01:57:41 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 150
+[21-Feb-2025 01:58:42 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 150
+[21-Feb-2025 02:00:34 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 186
+[21-Feb-2025 02:01:35 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 187
+[21-Feb-2025 02:02:36 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 186
+[21-Feb-2025 02:03:37 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 186
+[21-Feb-2025 02:04:37 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 186
+[21-Feb-2025 02:05:39 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 186
+[21-Feb-2025 02:23:55 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 186
+[21-Feb-2025 02:35:23 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 270
+[21-Feb-2025 02:50:47 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 256
+[21-Feb-2025 02:51:48 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 136
+[21-Feb-2025 02:52:49 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 256
+[21-Feb-2025 02:53:59 America/Fortaleza] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 256
+[21-Feb-2025 03:18:10 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 159 in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 305
+[21-Feb-2025 03:18:12 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 159 in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 305
+[21-Feb-2025 12:36:24 America/Fortaleza] PHP Parse error:  Unmatched '}' in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 232
+[21-Feb-2025 12:47:48 America/Fortaleza] PHP Warning:  Undefined variable $dataAulaFormatada in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 142
+[21-Feb-2025 12:47:48 America/Fortaleza] PHP Warning:  Undefined variable $aulasDistribuidas in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 144
+[21-Feb-2025 12:47:48 America/Fortaleza] PHP Warning:  Undefined variable $totalAulas in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 144
+[21-Feb-2025 13:25:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home3/cfcaut82/public_html/painel/alunosTurma.php:173
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 173
+[21-Feb-2025 13:32:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home3/cfcaut82/public_html/painel/alunosTurma.php:173
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 173
+[21-Feb-2025 13:32:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home3/cfcaut82/public_html/painel/alunosTurma.php:172
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 172
+[21-Feb-2025 14:02:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home3/cfcaut82/public_html/painel/alunosTurma.php:137
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/alunosTurma.php(180): renderHeader('logo_6761c9c05d...', Array, 'AUTO ESCOLA DIN...', '17/02/2025', Object(DateTime), '07:00', '10:00', Array)
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 137
+[21-Feb-2025 14:05:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home3/cfcaut82/public_html/painel/alunosTurma.php:172
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 172
+[21-Feb-2025 14:06:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home3/cfcaut82/public_html/painel/alunosTurma.php:172
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 172
+[21-Feb-2025 14:14:04 America/Fortaleza] PHP Parse error:  syntax error, unexpected token "endwhile", expecting end of file in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 225
+[21-Feb-2025 15:24:12 America/Fortaleza] PHP Parse error:  syntax error, unexpected end of file in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 250
+[21-Feb-2025 15:48:39 America/Fortaleza] PHP Parse error:  syntax error, unexpected end of file in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 246
+[21-Feb-2025 15:48:40 America/Fortaleza] PHP Parse error:  syntax error, unexpected end of file in /home3/cfcaut82/public_html/painel/alunosTurma.php on line 246
+[27-Feb-2025 11:42:13 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'EMIR HERNAN SOTO HERNANDEZ-ADIÇÃO DE CAT B/AB' for key 'servicos_aluno.nome_aluno' in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80
+[07-Mar-2025 11:58:27 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '700,00' for column 'preco' at row 1 in /home3/cfcaut82/public_html/painel/processarServicoAluno.php:80
+Stack trace:
+#0 /home3/cfcaut82/public_html/painel/processarServicoAluno.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/painel/processarServicoAluno.php on line 80

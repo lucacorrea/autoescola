@@ -1,0 +1,100 @@
+/* Modal de Horários de Aula */
+.modal-horarios {
+    display: none; /* Inicialmente oculto */
+    position: fixed; /* Permanece fixo mesmo ao rolar a página */
+    z-index: 999; /* Aparece sobre outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Rolagem se necessário */
+    background-color: rgba(0,0,0,0.8); /* Fundo preto com transparência */
+}
+
+/* Conteúdo da modal */
+.modal-horarios-content {
+    background-color: #fffff0;
+    margin-top: 130px !important;
+    margin: 15% auto; /* Centralizado vertical e horizontalmente */
+    padding: 20px;
+    height: 270px;
+    border: 1px solid #000;
+    width: 60%; /* Largura da modal */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative; /* Para posicionar os botões */
+}
+
+/* Cabeçalho da modal */
+.modal-horarios-header {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.title-modal{
+    color: #000 !important;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Botão de fechar */
+.close {
+    color: #aaa;
+    position: absolute; /* Para posicionar no canto direito */
+    top: 10px;
+    right: 30px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Botões dentro da modal */
+.excluir {
+    color: white;
+    text-decoration: none !important;
+    background-color: #f44336; /* Vermelho */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px !important;
+    margin-left: 10px; /* Espaçamento entre os botões */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: right; /* Alinhar à direita */
+}
+
+.excluir:hover{
+    color: #fff !important;
+}
+
+.excluir-secondary {
+    background-color: #ccc; /* Cinza */
+    color: black;
+    font-weight: 600;
+}
+
+.excluir-secondary:hover{
+    color: #000 !important;
+}
+
+/* Texto dentro da modal */
+.p {
+    text-align: center;
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

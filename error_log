@@ -1,0 +1,412 @@
+[04-Dec-2024 12:19:22 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/conexao.php:7
+Stack trace:
+#0 /home3/cfcaut82/public_html/conexao.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'dinamica')
+#1 /home3/cfcaut82/public_html/index.php(2): include('/home3/cfcaut82...')
+#2 {main}
+  thrown in /home3/cfcaut82/public_html/conexao.php on line 7
+[04-Dec-2024 12:19:24 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/conexao.php:7
+Stack trace:
+#0 /home3/cfcaut82/public_html/conexao.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'dinamica')
+#1 /home3/cfcaut82/public_html/index.php(2): include('/home3/cfcaut82...')
+#2 {main}
+  thrown in /home3/cfcaut82/public_html/conexao.php on line 7
+[04-Dec-2024 12:19:26 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/conexao.php:7
+Stack trace:
+#0 /home3/cfcaut82/public_html/conexao.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'dinamica')
+#1 /home3/cfcaut82/public_html/index.php(2): include('/home3/cfcaut82...')
+#2 {main}
+  thrown in /home3/cfcaut82/public_html/conexao.php on line 7
+[04-Dec-2024 16:30:10 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home3/cfcaut82/public_html/index.php:484
+Stack trace:
+#0 /home3/cfcaut82/public_html/index.php(484): number_format('1200,00', 2, ',', '.')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/index.php on line 484
+[04-Dec-2024 16:30:30 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home3/cfcaut82/public_html/index.php:484
+Stack trace:
+#0 /home3/cfcaut82/public_html/index.php(484): number_format('1200,00', 2, ',', '.')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/index.php on line 484
+[04-Dec-2024 16:30:37 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home3/cfcaut82/public_html/index.php:484
+Stack trace:
+#0 /home3/cfcaut82/public_html/index.php(484): number_format('1200,00', 2, ',', '.')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/index.php on line 484
+[04-Dec-2024 16:30:53 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home3/cfcaut82/public_html/index.php:484
+Stack trace:
+#0 /home3/cfcaut82/public_html/index.php(484): number_format('1200,00', 2, ',', '.')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/index.php on line 484
+[05-Dec-2024 00:16:43 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:18:00 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:19:14 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:19:17 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:20:00 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:20:11 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:20:15 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:21:02 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:21:05 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:21:07 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/sobre.php:51
+Stack trace:
+#0 /home3/cfcaut82/public_html/sobre.php(51): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'autoescola')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/sobre.php on line 51
+[05-Dec-2024 00:21:15 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:24:03 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:24:37 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:24:40 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:24:59 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:25:01 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:25:31 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:25:33 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:25:55 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:25:58 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:26:05 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:26:41 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:27:46 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:28:02 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:28:16 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:28:19 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:28:31 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/info.php:11
+Stack trace:
+#0 /home3/cfcaut82/public_html/info.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'autoescola')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/info.php on line 11
+[05-Dec-2024 00:28:36 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/sobre.php:51
+Stack trace:
+#0 /home3/cfcaut82/public_html/sobre.php(51): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'autoescola')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/sobre.php on line 51
+[05-Dec-2024 00:31:11 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:31:13 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/info.php:11
+Stack trace:
+#0 /home3/cfcaut82/public_html/info.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'autoescola')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/info.php on line 11
+[05-Dec-2024 00:31:14 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:31:54 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 00:31:58 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/contratoUser.php:37
+Stack trace:
+#0 /home3/cfcaut82/public_html/contratoUser.php(37): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'autoescola')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/contratoUser.php on line 37
+[05-Dec-2024 00:33:20 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 00:33:22 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/fichasAluno.php:11
+Stack trace:
+#0 /home3/cfcaut82/public_html/fichasAluno.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'autoescola')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/fichasAluno.php on line 11
+[05-Dec-2024 00:34:02 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 00:35:18 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 00:35:24 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/cfcaut82/public_html/user.php:49
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(49): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'autoescola')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 49
+[05-Dec-2024 00:36:52 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cfcaut82_autoescola'@'localhost' to database 'Bt~cfcaut82_autoescola{l' in /home3/cfcaut82/public_html/user.php:49
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(49): mysqli->__construct('localhost', 'cfcaut82_autoes...', Object(SensitiveParameterValue), 'Bt~cfcaut82_aut...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 49
+[05-Dec-2024 00:37:22 America/Fortaleza] PHP Warning:  Undefined variable $user in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 16
+[05-Dec-2024 00:37:22 America/Fortaleza] PHP Warning:  Undefined variable $pass in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 16
+[05-Dec-2024 00:37:22 America/Fortaleza] PHP Warning:  Undefined variable $db in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 16
+[05-Dec-2024 00:37:22 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in /home3/cfcaut82/public_html/atualizarNomeUser.php:16
+Stack trace:
+#0 /home3/cfcaut82/public_html/atualizarNomeUser.php(16): mysqli->__construct('localhost', NULL, Object(SensitiveParameterValue), NULL)
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 16
+[05-Dec-2024 00:38:28 America/Fortaleza] PHP Warning:  Undefined variable $user in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 24
+[05-Dec-2024 00:38:28 America/Fortaleza] PHP Warning:  Undefined variable $pass in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 24
+[05-Dec-2024 00:38:28 America/Fortaleza] PHP Warning:  Undefined variable $db in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 24
+[05-Dec-2024 00:38:28 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in /home3/cfcaut82/public_html/atualizarNomeUser.php:24
+Stack trace:
+#0 /home3/cfcaut82/public_html/atualizarNomeUser.php(24): mysqli->__construct('localhost', NULL, Object(SensitiveParameterValue), NULL)
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/atualizarNomeUser.php on line 24
+[05-Dec-2024 00:39:43 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:40:50 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 00:40:51 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:46:49 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:46:54 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:47:00 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:47:33 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:47:36 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:48:38 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:49:16 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:51:18 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 58
+[05-Dec-2024 00:51:51 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:51:53 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 00:52:00 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 00:52:01 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 01:37:49 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 11:03:12 America/Fortaleza] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home3/cfcaut82/public_html/redefinirSenha.php on line 18
+[05-Dec-2024 11:03:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/cfcaut82/public_html/redefinirSenha.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/redefinirSenha.php on line 18
+[05-Dec-2024 11:03:13 America/Fortaleza] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home3/cfcaut82/public_html/redefinirSenha.php on line 18
+[05-Dec-2024 11:03:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/cfcaut82/public_html/redefinirSenha.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/redefinirSenha.php on line 18
+[05-Dec-2024 11:08:08 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/redefinirSenha.php:26) in /home3/cfcaut82/public_html/redefinirSenha.php on line 59
+[05-Dec-2024 11:09:46 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 15 in /home3/cfcaut82/public_html/redefinirSenha.php on line 96
+[05-Dec-2024 11:10:29 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 15 in /home3/cfcaut82/public_html/redefinirSenha.php on line 96
+[05-Dec-2024 11:41:29 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 11:44:22 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 11:44:58 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 11:45:50 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 11:45:52 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 11:45:54 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 16:21:29 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 58
+[05-Dec-2024 16:23:28 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 58
+[05-Dec-2024 16:23:33 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 16:23:34 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 16:23:40 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 16:24:11 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 16:24:12 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 16:24:17 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 16:26:02 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 16:26:10 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 16:26:11 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 16:29:57 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 58
+[05-Dec-2024 16:30:17 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 21:46:10 America/Fortaleza] PHP Warning:  Undefined array key "token" in /home3/cfcaut82/public_html/verificarToken.php on line 95
+[05-Dec-2024 22:07:27 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cfcaut82/public_html/verificarToken.php:83) in /home3/cfcaut82/public_html/verificarToken.php on line 87
+[05-Dec-2024 22:37:50 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 63
+[05-Dec-2024 22:37:59 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 22:38:02 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[05-Dec-2024 22:38:05 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 22:38:13 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 23:18:41 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 63
+[05-Dec-2024 23:19:40 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[05-Dec-2024 23:20:10 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[06-Dec-2024 11:18:32 America/Fortaleza] PHP Warning:  Undefined variable $nome_aluno in /home3/cfcaut82/public_html/processarContaAluno.php on line 105
+[09-Dec-2024 00:38:29 America/Fortaleza] PHP Warning:  Undefined variable $nome_aluno in /home3/cfcaut82/public_html/processarContaAluno.php on line 105
+[09-Dec-2024 00:38:29 America/Fortaleza] PHP Warning:  Undefined variable $email_aluno in /home3/cfcaut82/public_html/processarContaAluno.php on line 105
+[09-Dec-2024 00:38:42 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 09:21:00 America/Fortaleza] PHP Warning:  Undefined variable $nome_aluno in /home3/cfcaut82/public_html/processarContaAluno.php on line 105
+[09-Dec-2024 09:33:01 America/Fortaleza] PHP Warning:  Undefined variable $nome_aluno in /home3/cfcaut82/public_html/processarContaAluno.php on line 107
+[09-Dec-2024 09:33:01 America/Fortaleza] PHP Warning:  Undefined variable $email_aluno in /home3/cfcaut82/public_html/processarContaAluno.php on line 108
+[09-Dec-2024 09:33:01 America/Fortaleza] PHP Warning:  Undefined variable $email_aluno in /home3/cfcaut82/public_html/processarContaAluno.php on line 112
+[09-Dec-2024 09:41:46 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 12:34:11 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 12:34:15 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[09-Dec-2024 12:34:20 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 12:34:20 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[09-Dec-2024 12:34:22 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[09-Dec-2024 12:34:24 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 12:34:41 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 12:34:44 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 13:09:43 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 13:10:04 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/cfcaut82/public_html/inicio.php on line 18
+[09-Dec-2024 15:38:33 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[09-Dec-2024 15:38:45 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[12-Dec-2024 16:18:43 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/login.php:8
+Stack trace:
+#0 /home3/cfcaut82/public_html/login.php(8): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:20:25 America/Fortaleza] PHP Warning:  include(../conexao.php): Failed to open stream: No such file or directory in /home3/cfcaut82/public_html/login.php on line 3
+[12-Dec-2024 16:20:25 America/Fortaleza] PHP Warning:  include(): Failed opening '../conexao.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/cfcaut82/public_html/login.php on line 3
+[12-Dec-2024 16:20:25 America/Fortaleza] PHP Warning:  Undefined variable $conn in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:20:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:20:26 America/Fortaleza] PHP Warning:  include(../conexao.php): Failed to open stream: No such file or directory in /home3/cfcaut82/public_html/login.php on line 3
+[12-Dec-2024 16:20:26 America/Fortaleza] PHP Warning:  include(): Failed opening '../conexao.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/cfcaut82/public_html/login.php on line 3
+[12-Dec-2024 16:20:26 America/Fortaleza] PHP Warning:  Undefined variable $conn in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:20:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:21:03 America/Fortaleza] PHP Warning:  include(../conexao.php): Failed to open stream: No such file or directory in /home3/cfcaut82/public_html/login.php on line 3
+[12-Dec-2024 16:21:03 America/Fortaleza] PHP Warning:  include(): Failed opening '../conexao.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/cfcaut82/public_html/login.php on line 3
+[12-Dec-2024 16:21:03 America/Fortaleza] PHP Warning:  Undefined variable $conn in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:21:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:25:08 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/login.php:8
+Stack trace:
+#0 /home3/cfcaut82/public_html/login.php(8): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/login.php on line 8
+[12-Dec-2024 16:29:10 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home3/cfcaut82/public_html/criarConta.php on line 8
+[12-Dec-2024 16:29:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/criarConta.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/criarConta.php on line 8
+[12-Dec-2024 16:29:11 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home3/cfcaut82/public_html/criarConta.php on line 8
+[12-Dec-2024 16:29:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/criarConta.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/criarConta.php on line 8
+[12-Dec-2024 16:29:12 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home3/cfcaut82/public_html/criarConta.php on line 8
+[12-Dec-2024 16:29:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/criarConta.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/criarConta.php on line 8
+[12-Dec-2024 16:34:07 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':email' at line 1 in /home3/cfcaut82/public_html/processarContaAluno.php:62
+Stack trace:
+#0 /home3/cfcaut82/public_html/processarContaAluno.php(62): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/processarContaAluno.php on line 62
+[12-Dec-2024 16:34:13 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':email' at line 1 in /home3/cfcaut82/public_html/processarContaAluno.php:62
+Stack trace:
+#0 /home3/cfcaut82/public_html/processarContaAluno.php(62): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/processarContaAluno.php on line 62
+[12-Dec-2024 15:51:32 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:51:32 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:52:03 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:52:03 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:52:41 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:52:41 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:02 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:02 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:04 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:04 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:04 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:04 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:04 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:04 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:06 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:06 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:06 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:06 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:07 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:07 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:08 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:08 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:55:15 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:55:15 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:34 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:35 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:36 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:37 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:37 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:37 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:37 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:57:37 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 15:57:37 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 213
+[12-Dec-2024 15:59:59 America/Manaus] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/cfcaut82/public_html/inicio.php:189
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 16:00:00 America/Manaus] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/cfcaut82/public_html/inicio.php:189
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 16:00:01 America/Manaus] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/cfcaut82/public_html/inicio.php:189
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/inicio.php on line 189
+[12-Dec-2024 16:02:10 America/Manaus] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home3/cfcaut82/public_html/inicio.php on line 26
+[12-Dec-2024 16:02:10 America/Manaus] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bind_param() in /home3/cfcaut82/public_html/inicio.php:48
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/inicio.php on line 48
+[12-Dec-2024 16:06:41 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 216
+[12-Dec-2024 16:06:41 America/Manaus] PHP Warning:  Attempt to read property "num_rows" on array in /home3/cfcaut82/public_html/inicio.php on line 240
+[12-Dec-2024 16:14:04 America/Manaus] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::rowCount() in /home3/cfcaut82/public_html/inicio.php:26
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/inicio.php on line 26
+[12-Dec-2024 17:24:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::rowCount() in /home3/cfcaut82/public_html/sobre.php:61
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/sobre.php on line 61
+[12-Dec-2024 17:26:26 America/Fortaleza] PHP Warning:  Undefined variable $categoria in /home3/cfcaut82/public_html/info.php on line 150
+[12-Dec-2024 18:53:26 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/loaderAluno.php:9
+Stack trace:
+#0 /home3/cfcaut82/public_html/loaderAluno.php(9): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/loaderAluno.php on line 9
+[12-Dec-2024 23:24:10 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/user.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 21
+[12-Dec-2024 23:24:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/user.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 21
+[12-Dec-2024 23:24:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/user.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 21
+[12-Dec-2024 23:24:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/user.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 21
+[12-Dec-2024 23:24:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/user.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 21
+[12-Dec-2024 23:24:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/user.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 21
+[12-Dec-2024 23:24:22 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/user.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/user.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 21
+[12-Dec-2024 23:25:18 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home3/cfcaut82/public_html/user.php on line 7
+[12-Dec-2024 23:25:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/user.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 7
+[12-Dec-2024 23:25:22 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home3/cfcaut82/public_html/user.php on line 7
+[12-Dec-2024 23:25:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/cfcaut82/public_html/user.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfcaut82/public_html/user.php on line 7
+[12-Dec-2024 23:40:50 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1 in /home3/cfcaut82/public_html/animate.php:21
+Stack trace:
+#0 /home3/cfcaut82/public_html/animate.php(21): mysqli->prepare('SELECT logo_ima...')
+#1 {main}
+  thrown in /home3/cfcaut82/public_html/animate.php on line 21
+[12-Dec-2024 23:53:50 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 54
+[20-Dec-2024 19:40:14 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 54
+[13-Feb-2025 17:06:29 America/Fortaleza] PHP Warning:  Undefined array key "email" in /home3/cfcaut82/public_html/redefinirSenhaNova.php on line 54

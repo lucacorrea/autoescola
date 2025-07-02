@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container-textarea, .buttons-container { 
+    margin-top: 20px; 
+}
+
+.buttons-container, #cancelButton {
+    display: none; 
+}
+
+.title {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+textarea { 
+    width: 100%; 
+    height: 300px; 
+    padding: 10px; 
+    font-size: 16px; 
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-right: 120px;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.company-info img {
+    max-width: 150px;
+    margin-right: 490px;
+    position: relative;
+    top: 20px;
+  
+}
+
+#contratoTexto { 
+    display: none; 
+}
+
+#contratoDisplay {
+     font-size: 17px;
+     margin-top: 5px;
+}
+
+.company-details {
+    line-height: 0.8;
+}
+
+.divider {
+    border-top: 2px solid #fff;
+    margin: 10px 0;
+    width: 320px;
+}
+
+.card {
+    position: relative;
+    border: none;
+    margin-bottom: 0px;
+    margin-top: -30px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card img {
+    position: absolute;
+    top: -98px;
+    right: 20px;
+    border-radius: 10px;
+    width: 90px;                            /* Largura de 3cm convertida para pixels */
+    height: 120px;                          /* Altura de 4cm convertida para pixels */
+    background-size: cover;
+    padding: 10px;
+    background-position: center;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.card .foto{
+    padding: 0;
+}
+
+.separate{
+    border-top: 1px solid #000 !important;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 90px !important;
+}
+
+.contratante{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sm {
+    padding: 8px 13px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn-white:hover, .btn-white.active {
+    background-color: #ffbf00 !important;
+}
+
+.btn-white {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border-radius: 8px;
+
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card .contrato{
+    width: 1900px !important;
+}
+
+
+@media print {
+
+    @page {
+        margin: 1cm;                     /* Ajuste as margens conforme necessário */
+        size: A4 portrait;              /* Tamanho A4 em orientação retrato */
+    }
+
+    table, tr, td, div, section, article {
+        page-break-inside: avoid;       /* Evita quebra de página dentro destes elementos */
+    }
+
+
+    header, footer, nav, .no-print {
+        display: none;
+    }
+
+    img, table {
+        max-width: 100%;                /* Garante que não ultrapassem os limites */
+        height: auto;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .btn, .container-right { 
+        display: none; 
+    }
+
+    body {
+        width: 210mm;                   /* Largura da folha A4 */
+        height: 297mm;                 /* Altura da folha A4 */
+        margin: 0;
+    
+    }
+
+    .container {
+        zoom: 80%;
+        width: 100%;
+        padding: 15mm;                  /* Margens para impressão */
+    }
+
+    .card-candidato {
+        width: 240mm;
+        margin-left: -15px;
+    }
+
+    .dados{
+        margin-top: -20%;
+    }
+
+    .card .foto{
+        width: 90px;        /* Largura de 3cm convertida para pixels */
+        height: 120px;      /* Altura de 4cm convertida para pixels */
+        padding: 0;
+    }
+
+    .company-info img {
+        max-width: 150px;
+        margin-right: 80px;
+        position: relative;
+        top: 20px;
+    
+    }
+    
+}

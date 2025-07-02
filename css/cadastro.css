@@ -1,0 +1,30 @@
+/* Estilos padrão */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.icon-form {
+    margin-right: 10px;
+}
+
+/* Estilos para telas pequenas (como tablets) */
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+}
+
+/* Estilos para telas muito pequenas (como dispositivos móveis) */
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}

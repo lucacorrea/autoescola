@@ -1,0 +1,69 @@
+.cadastro{
+    margin-top: -40px !important;
+}
+.container-cep input {
+    width: 100%;
+}
+
+.card-search{
+    background-color: #fff !important;
+    border: none !important;
+}
+
+form select,
+form input {
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+    font-size: 12px !important;
+}
+
+form select:focus{
+    border-color: #000 !important;
+    box-shadow: 0 0 0 0.15rem rgba(34, 135, 76, 0.10) !important;
+}
+
+form select{
+    border: 1.5px solid #000 !important;
+}
+
+.btn-search{
+    font-size: 11px !important;
+    margin-top: -36px !important;
+}
+
+table{
+    zoom: 95%;
+}
+
+.container-cep input {
+    width: 100%;
+    border: 1px solid #000 !important;
+    border-radius: 5px;
+    height: 40px !important;
+    padding: 8px !important;
+    font-size: 14px !important;
+}
+
+.container-cep input:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 0.15rem rgba(34, 135, 76, 0.10) !important;
+}
+
+
+form button {
+    background-color: var(--color-primary) !important;
+    color: #fff !important;
+    border: none;
+    padding: 6px 13px !important;
+    font-size: 14px !important;
+}
+
+form button:focus{
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 0 0 0.15rem rgba(34, 135, 76, 0.10) !important;
+}
+
+.filtrar-input{
+    padding-left: 130px !important;
+}

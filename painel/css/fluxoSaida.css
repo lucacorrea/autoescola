@@ -1,0 +1,36 @@
+.total-box {
+    background-color: #8B0000; 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    color: #000 !important;
+}
+
+.tabela {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.table-responsive thead th {
+    position: sticky;
+    top: 0;
+    background: var(--color-background);
+    z-index: 999; /* Certifique-se de que o cabeçalho esteja acima do conteúdo */
+    border-bottom: 1px solid #0000; /* Adiciona uma linha inferior */
+}
+
+.table-responsive thead th::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px; /* Define a distância da linha em relação ao elemento th */
+    width: 100%; /* Garante que a linha se estenda por toda a largura */
+    border-bottom: 1px solid #000; /* Cor e estilo da linha */
+}
