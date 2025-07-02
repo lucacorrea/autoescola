@@ -176,7 +176,7 @@ try {
                                                     <div class="col-4 mb-2">
                                                         <div class="form-group container-cep mb-2">
                                                             <p class="title-categoria mb-1"><b>L.A.D.V:</b></p>
-                                                            <input type="date" name="ladv" class="form-control mb-2" value="<?= !empty($aluno['ladv']) && $aluno['ladv'] !== '0000-00-00' ? htmlspecialchars($aluno['ladv']) : '' ?>" />
+                                                            <input type="date" name="ladv" class="form-control mb-2" value="<?= (!empty($aluno['ladv']) && $aluno['ladv'] !== '0000-00-00' && $aluno['ladv'] !== null) ? htmlspecialchars($aluno['ladv']) : '' ?>" />
                                                         </div>
                                                     </div>
                                                     <div class="col-4 mb-2">
