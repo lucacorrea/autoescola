@@ -1,9 +1,8 @@
 <?php
-
 include "conexao.php";
 
 // ID da associação
-$id = 1; 
+$id = 1;
 
 // Consulta para pegar a logo_image
 $sql = "SELECT logo_image FROM associacoes WHERE id = :id";
@@ -17,73 +16,64 @@ $associacao = $stmt->fetch(PDO::FETCH_ASSOC);
 // Verifica se o campo 'logo_image' está definido e não é vazio
 $logoImage = isset($associacao['logo_image']) ? $associacao['logo_image'] : "";
 
-
 session_start(); // Inicia a sessão
 
 // Função para verificar se o usuário está logado como administrador ou presidente
-function verificarAcesso() {
-    if(isset($_SESSION['id_usuario']) && isset($_SESSION['nivel'])) {
-        // Se o usuário estiver logado, verifique se é admin ou presidente
-        $nivel_usuario = $_SESSION['nivel']; // Supondo que o nível de usuário esteja armazenado na sessão
-
-        // Verificar se o nível de usuário é admin ou presidente
-        if($nivel_usuario == 'admin' || $nivel_usuario == 'presidente' || $nivel_usuario == 'suporte') {
-            // O usuário tem permissão para acessar esta parte do sistema
+function verificarAcesso()
+{
+    if (isset($_SESSION['id_usuario']) && isset($_SESSION['nivel'])) {
+        $nivel_usuario = $_SESSION['nivel'];
+        if ($nivel_usuario == 'admin' || $nivel_usuario == 'presidente' || $nivel_usuario == 'suporte') {
             return true;
         }
     }
-    
-    // Se não estiver logado como admin ou presidente, redirecione-o para outra página
     header("Location: loader.php");
-    exit(); // Encerra o script após o redirecionamento
+    exit();
 }
 
-// Verificar o acesso antes de permitir o acesso à página
 verificarAcesso();
 
 include "conexao.php";
 
-// Verificar o ID do aluno passado na URL
-if (isset($_GET['id'])) {
-    $id_aluno = $_GET['id'];
+// Verificar se o CPF foi passado na URL
+if (isset($_GET['cpf'])) {
+    $cpf_aluno = $_GET['cpf'];
+
+    // Consulta para buscar os dados do aluno com base no CPF
+    $sql_aluno = "SELECT id, nome FROM alunos WHERE cpf = :cpf";
+    $stmt_aluno = $conn->prepare($sql_aluno);
+    $stmt_aluno->bindParam(':cpf', $cpf_aluno, PDO::PARAM_STR);
+    $stmt_aluno->execute();
+    $aluno = $stmt_aluno->fetch(PDO::FETCH_ASSOC);
+
+    if ($aluno === false) {
+        echo "Aluno não encontrado com este CPF.";
+        exit;
+    }
+
+    $id_aluno = $aluno['id'];
+    $nome_aluno = $aluno['nome'];
 } else {
-    echo "ID do aluno não encontrado.";
+    echo "CPF do aluno não encontrado na URL.";
     exit;
 }
 
-// Consulta para buscar o RG do aluno com base no ID
-$sql_rg_aluno = "SELECT rg FROM alunos WHERE id = :id";
-$stmt_rg_aluno = $conn->prepare($sql_rg_aluno);
-$stmt_rg_aluno->bindParam(':id', $id_aluno, PDO::PARAM_INT);
-$stmt_rg_aluno->execute();
-$rg_aluno = $stmt_rg_aluno->fetchColumn();
-
-if ($rg_aluno === false) {
-    echo "RG do aluno não encontrado.";
-    exit;
-}
-
-// Consulta para buscar fichas associadas ao RG do aluno
-$sql_fichas = "SELECT f.*, a.rg 
-               FROM fichas f 
-               JOIN alunos a ON a.rg = f.rg 
-               WHERE a.rg = :rg";
+// Consulta para buscar fichas associadas ao CPF do aluno
+$sql_fichas = "SELECT f.* FROM fichas f WHERE f.cpf = :cpf ORDER BY f.data_ficha DESC";
 $stmt_fichas = $conn->prepare($sql_fichas);
-$stmt_fichas->bindParam(':rg', $rg_aluno, PDO::PARAM_STR);
+$stmt_fichas->bindParam(':cpf', $cpf_aluno, PDO::PARAM_STR);
 $stmt_fichas->execute();
 $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
-
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-    <title>Painel - Alunos</title>
+    <title>Painel - Fichas do Aluno</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/fontawesome.css" />
     <link rel="stylesheet" href="../css/animate.css" />
@@ -91,6 +81,7 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
     <link rel="stylesheet" href="./css/painel.css" />
     <link rel="stylesheet" href="./css/modal.css">
 </head>
+
 <body>
     <section class="bg-menu">
         <div class="conteudo" style="margin-left: -240px;">
@@ -99,11 +90,12 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
                     <div class="row">
                         <div class="col-12 d-flex align-items-center mt-4">
                             <h1 class="title-page">
-                                <b><i class="fas fa-user"></i>&nbsp; FICHA DE FREQUÊNCIA - ALUNO</b>
+                                <b><i class="fas fa-user"></i>&nbsp; FICHA DE FREQUÊNCIA -
+                                    <?php echo htmlspecialchars($nome_aluno); ?></b>
                             </h1>
                             <div class="container-right">
                                 <div class="container-dados">
-                                    
+
                                 </div>
                                 <a href="alunos.php" class="btn btn-white btn-sm">
                                     <i class="fas fa-sign-out-alt"></i>&nbsp; Sair
@@ -123,42 +115,46 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
                     <div class="container">
                         <div class="row">
                             <div class="col-12 mt-0 cadastro">
-                                <a href="ficha.php?id=<?php echo $id_aluno; ?>" class="btn btn-white btn-sm active">
+                                <a href="ficha.php?cpf=<?php echo $cpf_aluno; ?>" class="btn btn-white btn-sm active">
                                     <i class="fas fa-calendar-alt"></i> Ver ficha
                                 </a>
                                 &nbsp;&nbsp;
-                                <a href="criarFicha.php?id=<?php echo $id_aluno; ?>" class="btn btn-white btn-sm">
+                                <a href="criarFicha.php?cpf=<?php echo $cpf_aluno; ?>" class="btn btn-white btn-sm">
                                     <i class="fas fa-plus"></i> Cadastrar Ficha
                                 </a>
                                 &nbsp;&nbsp;
-                                <a href="vizualizarFicha.php?id=<?php echo $id_aluno; ?>" class="btn btn-white btn-sm">
+                                <a href="vizualizarFicha.php?cpf=<?php echo $cpf_aluno; ?>"
+                                    class="btn btn-white btn-sm">
                                     <i class="fas fa-eye"></i> Vizualizar Ficha
                                 </a>
-                            </div>    
+                            </div>
                             <div class="col-12" id="categorias">
                                 <div class="container-group mb-5">
                                     <div class="accordion" id="categoriasMenu">
                                         <div class="mt-5 card-table">
                                             <div class="card-drag" id="headingOne">
                                                 <div class="infos">
-                                                    <a href="#" class="name-table mb-0" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                        <span class="me-2"><i class="fas fa-chalkboard-teacher"></i></span>
+                                                    <a href="#" class="name-table mb-0" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="true"
+                                                        aria-controls="collapseOne">
+                                                        <span class="me-2"><i
+                                                                class="fas fa-chalkboard-teacher"></i></span>
                                                         <b>Lista de Fichas</b>
                                                     </a>
                                                 </div>
-                                                <div class="infos"> 
-                                                </div>
                                                 <div class="infos">
                                                 </div>
                                                 <div class="infos">
                                                 </div>
-                                                
                                                 <div class="infos">
-                                                <a href="imprimirFicha.php?id=<?php echo $id_aluno; ?>" class="name-table mb-0 btn btn-sm btn-white active" >
-                                                    <span class="me-2"><i class="fas fa-save"></i></span>
-                                                    <b>Imprimir Ficha</b>
-                                                </a>
+                                                </div>
 
+                                                <div class="infos">
+                                                    <a href="imprimirFicha.php?cpf=<?php echo $cpf_aluno; ?>"
+                                                        class="name-table mb-0 btn btn-sm btn-white active">
+                                                        <span class="me-2"><i class="fas fa-save"></i></span>
+                                                        <b>Imprimir Ficha</b>
+                                                    </a>
                                                 </div>
                                             </div>
 
@@ -178,7 +174,7 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-                                                        <?php
+                                                            <?php
                                                             if (!empty($fichas)) {
                                                                 foreach ($fichas as $ficha) {
                                                                     echo "<tr>";
@@ -201,7 +197,7 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
                                                                     echo "</tr>";
                                                                 }
                                                             } else {
-                                                                echo "<tr><td colspan='8'>Nenhuma ficha encontrada para o RG.</td></tr>";
+                                                                echo "<tr><td colspan='8'>Nenhuma ficha encontrada para este CPF.</td></tr>";
                                                             }
                                                             ?>
                                                         </tbody>
@@ -217,11 +213,8 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </main>
 
-            
-        
-
-             <!-- Modal Excluir Ficha -->
-             <div id="confirmExcluirFicha" class="modal-horarios" style="display: none;">
+            <!-- Modal Excluir Ficha -->
+            <div id="confirmExcluirFicha" class="modal-horarios" style="display: none;">
                 <div class="modal-horarios-content">
                     <div class="modal-horarios-header">
                         <span class="close" onclick="closeModal()">&times;</span>
@@ -235,8 +228,8 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </div>
 
-               <!-- Modal Finalizar Ficha -->
-               <div id="confirmFinalizarFicha" class="modal-horarios" style="display: none;">
+            <!-- Modal Finalizar Ficha -->
+            <div id="confirmFinalizarFicha" class="modal-horarios" style="display: none;">
                 <div class="modal-horarios-content">
                     <div class="modal-horarios-header">
                         <span class="close" onclick="closeModalFinalizarFicha()">&times;</span>
@@ -254,27 +247,24 @@ $fichas = $stmt_fichas->fetchAll(PDO::FETCH_ASSOC);
             <script src="../js/jquery.min.js"></script>
             <script src="../js/custom.js"></script>
             <script>
-                
-            
-            function openModal(id) {
-                document.getElementById('confirmExcluirFichaLink').href = 'excluirFicha.php?id=' + id;
-                document.getElementById('confirmExcluirFicha').style.display = 'block';
-            }
+                function openModal(id) {
+                    document.getElementById('confirmExcluirFichaLink').href = 'excluirFicha.php?id=' + id;
+                    document.getElementById('confirmExcluirFicha').style.display = 'block';
+                }
 
-            function closeModal() {
-                document.getElementById('confirmExcluirFicha').style.display = 'none';
-            }
+                function closeModal() {
+                    document.getElementById('confirmExcluirFicha').style.display = 'none';
+                }
 
-            function openModalFinalizarFicha(id) {
-                document.getElementById('confirmFinalizarFichaLink').href = 'finalizarFicha.php?id=' + id;
-                document.getElementById('confirmFinalizarFicha').style.display = 'block';
-            }
+                function openModalFinalizarFicha(id) {
+                    document.getElementById('confirmFinalizarFichaLink').href = 'finalizarFicha.php?id=' + id;
+                    document.getElementById('confirmFinalizarFicha').style.display = 'block';
+                }
 
-            function closeModalFinalizarFicha() {
-                document.getElementById('confirmFinalizarFicha').style.display = 'none';
-            }
-
+                function closeModalFinalizarFicha() {
+                    document.getElementById('confirmFinalizarFicha').style.display = 'none';
+                }
             </script>
-        </body>
-    </html>
+</body>
 
+</html>
